@@ -10,11 +10,3 @@ function handleTick()
         canvas.update();
     }
 }
-
-function display_message()
-{ 
-}
-
-function read_text()
-{
-}

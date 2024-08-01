@@ -3,8 +3,8 @@ window.addEventListener("keydown", handleKeyDown);
 window.addEventListener("keyup", handleKeyUp);
 
 // キーが押されたとき
-function handleKeyDown(event) {
-
+function handleKeyDown(event) 
+{
     //console.log( event.key )
     //console.log( event.altKey )
     //console.log( event.ctrlKey )
@@ -17,10 +17,6 @@ function handleKeyDown(event) {
             if (scene_id === 0)
             {
                 scene_id = 1;
-                canvas.removeChild(titleText);
-                canvas.addChildAt(man, 1);
-                canvas.addChildAt(woman, 2);
-                canvas.addChildAt(message_box, 3);
             }
             else if (scene_id === 1) 
             {
